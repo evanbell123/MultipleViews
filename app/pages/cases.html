@@ -1,0 +1,10 @@
+<div class="col-md-6">
+    <strong>Data Length:</strong> {{ gridOptions.data.length | number }}
+    <br>
+    <strong>Last Cell Edited:</strong> {{msg.lastCellEdited}}
+    <br>
+    <div ui-grid="gridOptions" ui-grid-edit class="grid"></div>
+    <br>
+    <div><strong>Last file uploaded:</strong></div>
+    <div>{{lastFile}}</div>
+</div>
